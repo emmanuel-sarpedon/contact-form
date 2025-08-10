@@ -60,7 +60,7 @@ export default function ContactForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="flex flex-col gap-8 lg:mx-auto lg:grid lg:max-w-5xl lg:grid-cols-3"
+        className="flex flex-col gap-8 max-mg: px-10 lg:mx-auto lg:grid lg:max-w-5xl lg:grid-cols-3"
       >
         <FormField
           control={form.control}

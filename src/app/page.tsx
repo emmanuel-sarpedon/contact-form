@@ -20,7 +20,7 @@ export default function Home() {
           }}
         />
       </header>
-      <div className="flex flex-col items-center justify-center pt-24">
+      <div className="flex flex-col items-center justify-center lg:pt-24">
         <h1 className="scroll-m-20 pb-12 text-center text-4xl font-extrabold tracking-tight text-balance">
           Formulaire de contact
         </h1>
